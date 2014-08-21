@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UNCC Photos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="photos_string">Photos</string>
+    <string name="slide_string">Slide Show</string>
+    <string name="title_activity_photo">Photo Activity</string>
+
+</resources>

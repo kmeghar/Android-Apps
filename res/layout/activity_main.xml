@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_vertical|center_horizontal"
+    android:orientation="horizontal"
+    
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:weightSum="1"
+        android:layout_alignParentBottom="true">
+	
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/photos_string" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/slide_string" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/background_logo" />
+
+</RelativeLayout>
